@@ -49,7 +49,9 @@ import 'package:dot_bottom_navigation_bar/dot_bottom_navigation_bar.dart';
 ```
 
 <h2>Usage</h2>
-<h4>DotBottomNavigationBar<h4>
+
+<h4>DotBottomNavigationBar</h4>
+
 <p>A customizable bottom navigation bar with dot-style icons.</p>
 <br>
 
@@ -79,7 +81,7 @@ DotBottomNavigationBar(
 ```
 <br>
 
-<h4>DotBottomNavigationBarItem<h4>
+<h4>DotBottomNavigationBarItem</h4>
 A data class representing an item in the navigation bar.
 <br>
 
