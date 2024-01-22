@@ -58,15 +58,15 @@ DotBottomNavigationBar(
   items: [
     DotBottomNavigationBarItem(
       icon: Icon(Icons.home),
-      activeIcon: Icon(Icons.home, color: Colors.blue), /// activeIcon: is a widget, so you can easily customize according to you need.
+      activeIcon: Icon(Icons.home, color: Colors.blue),
     ),
     DotBottomNavigationBarItem(
       icon: Icon(Icons.search),
-      activeIcon: Icon(Icons.search, color: Colors.blue), 
+      activeIcon: Icon(Icons.search, color: Colors.blue),
     ),
     DotBottomNavigationBarItem(
       icon: Icon(Icons.favorite),
-      activeIcon: Icon(Icons.favorite, color: Colors.blue), 
+      activeIcon: Icon(Icons.favorite, color: Colors.blue),
     ),
     DotBottomNavigationBarItem(
       icon: Icon(Icons.person),
@@ -84,6 +84,7 @@ DotBottomNavigationBarItem(
   icon: Icon(Icons.home),
   activeIcon: Icon(Icons.home, color: Colors.blue), /// activeIcon: is a widget, so you can easily customize according to you need. 
 )
+
 ```
 
 
