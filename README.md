@@ -9,7 +9,9 @@
  <br>
 </p>
 
-https://drive.google.com/file/d/1Xy1cy67k4fkhSMJMsz_Ve3jAUFXQYl-o/view?usp=sharing
+
+![style1](assets/bottom navigation.mp4)
+<!-- https://drive.google.com/file/d/1Xy1cy67k4fkhSMJMsz_Ve3jAUFXQYl-o/view?usp=sharing -->
 
 
 <h2> Introduction </h2>
