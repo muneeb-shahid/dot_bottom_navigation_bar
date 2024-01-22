@@ -10,6 +10,8 @@
 </p>
 
 
+
+
 <h2> Introduction </h2>
 The <b>dot_bottom_navigation_bar</b> package provides a customizable and visually appealing dotted bottom navigation bar for Flutter developers. This package allows you to easily integrate a bottom navigation bar into your Flutter application with smooth navigation between screens.
 
@@ -45,6 +47,45 @@ Then import the package in your dart code:
 ```dart
 import 'package:dot_bottom_navigation_bar/dot_bottom_navigation_bar.dart';
 ```
+
+<h2>Usage</h2>
+<h4>DotBottomNavigationBar<h4>
+A customizable bottom navigation bar with dot-style icons.
+```
+DotBottomNavigationBar(
+  currentIndex: _currentIndex,
+  onTap: _onItemTapped,
+  items: [
+    DotBottomNavigationBarItem(
+      icon: Icon(Icons.home),
+      activeIcon: Icon(Icons.home, color: Colors.blue), /// activeIcon: is a widget, so you can easily customize according to you need.
+    ),
+    DotBottomNavigationBarItem(
+      icon: Icon(Icons.search),
+      activeIcon: Icon(Icons.search, color: Colors.blue), 
+    ),
+    DotBottomNavigationBarItem(
+      icon: Icon(Icons.favorite),
+      activeIcon: Icon(Icons.favorite, color: Colors.blue), 
+    ),
+    DotBottomNavigationBarItem(
+      icon: Icon(Icons.person),
+      activeIcon: Icon(Icons.person, color: Colors.blue),
+    ),
+  ],
+)
+```
+
+<h4>DotBottomNavigationBarItem<h4>
+A data class representing an item in the navigation bar.
+
+```
+DotBottomNavigationBarItem(
+  icon: Icon(Icons.home),
+  activeIcon: Icon(Icons.home, color: Colors.blue), /// activeIcon: is a widget, so you can easily customize according to you need. 
+)
+```
+
 
 <h2> Complete Implementation </h2>
 
