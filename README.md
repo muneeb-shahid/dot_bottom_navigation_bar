@@ -10,8 +10,9 @@
 </p>
 
 
-![style1](assets/bottom navigation.mp4)
-<!-- https://drive.google.com/file/d/1Xy1cy67k4fkhSMJMsz_Ve3jAUFXQYl-o/view?usp=sharing -->
+https://github.com/muneeb-shahid/dot_bottom_navigation_bar/assets/115135886/b13d8d4c-38f1-4aa3-8367-66d0d7bc4a33
+
+
 
 
 <h2> Introduction </h2>
