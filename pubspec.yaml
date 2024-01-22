@@ -1,7 +1,7 @@
 name: dot_bottom_navigation_bar
 description: A Flutter package for a customizable bottom navigation bar with dot indicators.
 version: 0.0.1
-homepage:
+homepage: https://github.com/muneeb-shahid/dot_bottom_navigation_bar
 
 environment:
   sdk: '>=3.1.4 <4.0.0'
