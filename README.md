@@ -9,7 +9,7 @@
  <br>
 </p>
 
-
+https://drive.google.com/file/d/1Xy1cy67k4fkhSMJMsz_Ve3jAUFXQYl-o/view?usp=sharing
 
 
 <h2> Introduction </h2>
@@ -63,6 +63,7 @@ DotBottomNavigationBar(
     DotBottomNavigationBarItem(
       icon: Icon(Icons.home),
       activeIcon: Icon(Icons.home, color: Colors.blue),
+      /// activeIcon: is a widget, so you can easily customize according to you need. 
     ),
     DotBottomNavigationBarItem(
       icon: Icon(Icons.search),
@@ -88,7 +89,8 @@ A data class representing an item in the navigation bar.
 ```
 DotBottomNavigationBarItem(
   icon: Icon(Icons.home),
-  activeIcon: Icon(Icons.home, color: Colors.blue), /// activeIcon: is a widget, so you can easily customize according to you need. 
+  activeIcon: Icon(Icons.home, color: Colors.blue),
+  /// activeIcon: is a widget, so you can easily customize according to you need. 
 )
 
 ```
