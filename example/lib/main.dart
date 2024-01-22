@@ -44,6 +44,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: screen[currentIndex],
       bottomNavigationBar: DotBottomNavigationBar(
+          selectedFontSize: 0.0,
+          unselectedFontSize: 0.0,
           onTap: (int index) {
             setState(() {
               currentIndex = index;
@@ -52,6 +54,8 @@ class _MyHomePageState extends State<MyHomePage> {
           items: [
             DotBottomNavigationBarItem(
                 activeIcon: const Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.home,
@@ -69,6 +73,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 )),
             DotBottomNavigationBarItem(
                 activeIcon: const Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.favorite,
@@ -86,6 +92,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 )),
             DotBottomNavigationBarItem(
                 activeIcon: const Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.settings,

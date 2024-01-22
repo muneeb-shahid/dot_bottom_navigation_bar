@@ -50,7 +50,9 @@ import 'package:dot_bottom_navigation_bar/dot_bottom_navigation_bar.dart';
 
 <h2>Usage</h2>
 <h4>DotBottomNavigationBar<h4>
-A customizable bottom navigation bar with dot-style icons.
+<p>A customizable bottom navigation bar with dot-style icons.</p>
+<br>
+
 ```
 DotBottomNavigationBar(
   currentIndex: _currentIndex,
@@ -75,9 +77,11 @@ DotBottomNavigationBar(
   ],
 )
 ```
+<br>
 
 <h4>DotBottomNavigationBarItem<h4>
 A data class representing an item in the navigation bar.
+<br>
 
 ```
 DotBottomNavigationBarItem(
@@ -86,7 +90,7 @@ DotBottomNavigationBarItem(
 )
 
 ```
-
+<br>
 
 <h2> Complete Implementation </h2>
 
@@ -137,6 +141,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: screen[currentIndex],
       bottomNavigationBar: DotBottomNavigationBar(
+          selectedFontSize: 0.0,
+          unselectedFontSize: 0.0,
           onTap: (int index) {
             setState(() {
               currentIndex = index;
@@ -145,6 +151,8 @@ class _MyHomePageState extends State<MyHomePage> {
           items: [
             DotBottomNavigationBarItem(
                 activeIcon: const Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.home,
@@ -162,6 +170,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 )),
             DotBottomNavigationBarItem(
                 activeIcon: const Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.favorite,
@@ -179,6 +189,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 )),
             DotBottomNavigationBarItem(
                 activeIcon: const Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Icon(
                       Icons.settings,
@@ -199,6 +211,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
 
 
 ```
